@@ -60,60 +60,90 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: url(images/Bricks_bg_Yellow.jpg) 
+  background: url(images/Background\ Oficial.jpg) 
 	center center fixed no-repeat;
   background-size:cover;
+  font-family: "helvetica", sans-serif;
 }
 
 .center {
-    width: 800px;
+    width: 80%; /* added this to make div responsive */
+	width: 800px;
+	max-width: 800px;
 	padding: 2%;
     margin: 100px auto;
- 	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
+	border-radius: 30px 150px;
 	text-align: center;
-	border: 4px dashed white;
+ 	background: rgba(256, 256, 256, .60); /*this uses opacity of 60% for the background color*/
+    /*removed -- border: 4px dashed white;
+	*/
 }
 
-   
 #logo {
-    margin-bottom: 16px;
-	border: 3px dashed red;
-	text-align: center;
-}
-
-h1 {
-	font-family: garamond, serif;
-	font-size: 2em;
-    margin: 0px auto 10px auto;
-    color: #fff;
-}
-
-h2 {
-	font-family: desire-pro,serif;
-    font-weight: 400;
-    font-style: normal;
-	font-size: 1.5em;
-    line-height: 1.4;
-    color: #fff;
-    padding: 0px 0px;
-    margin: 0px auto 25px auto;
+    margin-bottom: 50px;
+	margin-top: 40px;
+    text-align: center;
 }
 
 p {
-	font-family: garamond, serif;
-	font-size: 1.2em;
-    line-height: 1.6;
-    color: #fff;
-}
+	font-family: chaparral-pro-subhead,serif;
+    font-weight: 400;
+    font-style: normal;
+	letter-spacing: 1px;
+    color: #b79a90;
+
+	/*testing out fading in and out*/
+	 animation: fadeIn ease 10s;
+	 -webkit-animation: fadeIn ease 10s;
+	 -moz-animation: fadeIn ease 10s;
+	 -o-animation: fadeIn ease 10s;
+	 -ms-animation: fadeIn ease 10s;
+	}
+	@keyframes fadeIn {
+	 0% {
+		 opacity: 0;
+	 }
+	 100% {
+		 opacity: 1;
+	 }
+	}
+	@-moz-keyframes fadeIn {
+	  0% {
+		  opacity: 0;
+	  }
+	  100% {
+		  opacity: 1;
+	  }
+	}
+	@-webkit-keyframes fadeIn {
+		0% {
+			opacity: 0;
+		}
+	}
+	@-o-keyframes fadeIn {
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	}
+	@-ms-keyframes fadeIn {
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	}
 nav{
 	font-family: garamod, serif;
-    font-size: 1.2em;
+    font-size: 2em;
     width: 400px;
 	margin: 0 auto;
-	border: dashed turquoise;
-	border-width: 3px 0;
+	border-width: 2px 0;
 	text-align: center;
-	margin-top: 2em;
+	margin-top: 1em;
     }
 nav li{
 	display:inline;
@@ -124,11 +154,13 @@ nav a{
     }
 
 a{ 
-	color: #444;
+	color: #ae8e84;
     text-decoration: none;
 	font-weight: bold;
+	letter-spacing: 8px;
+	align-items: center;
     }
 a:hover{
-	color:black;
-	background: pink;
+	color: #c3aaa2;
+	background: #f5f1f0;
 }
