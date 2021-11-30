@@ -68,8 +68,8 @@ html, body {
 
 .center {
     width: 80%; /* added this to make div responsive */
-	width: 800px;
-	max-width: 800px;
+	width: 900px;
+	max-width: 900px;
 	padding: 2%;
     margin: 100px auto;
 	border-radius: 30px 150px;
@@ -87,7 +87,7 @@ html, body {
 
 p {
 	font-family: chaparral-pro-subhead,serif;
-    font-weight: 400;
+    font-weight: 800;
     font-style: normal;
 	letter-spacing: 1px;
     color: #b79a90;
