@@ -1,0 +1,156 @@
+/*CSS DOCUMENT*/
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+
+img {
+    width: 100%; /*Please leave this line.*/
+     display: block;
+     padding: 0.5em 0em 0.5em 0em
+
+}
+body{
+    background-color: rgb(250,250,250);
+    color:rgb(34,34,34) ;
+    font-family: 'Montserrat';
+    font-weight: 500; 
+    font-style: normal;
+    padding: 3rem 3rem 3rem;
+}
+
+div.container{
+    max-width: 75em;
+    margin: auto;
+
+}
+
+h1 { 
+    
+	color: rgb(250,250,250);
+    padding: 5rem 5rem 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+h2{
+    background-color: rgb(65 76 59);
+    color:#ffffff;
+    font-family: 'Playfair Display SC';
+    font-size: 2em; 
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    padding: 1em 1em 1em 1em
+}
+
+p.information{
+    font-family: 'Darker Grotesque';
+    font-size: 1.4em;
+    text-align: center;
+    padding: 0.5em 1em 0.5em 1em
+}
+
+p.event_name{
+    font-family: 'Playfair Display SC';
+    font-size: 1.5em;
+    color:#AB8742;
+    padding: 1.5em 0em 0em
+}
+
+p.description{
+    font-family: 'Darker Grotesque';
+    font-size: 1.1em;
+}
+
+p.price{
+    font-family: 'Darker Grotesque';
+    color:#AB8742;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 1em 0em 1em 0em
+}
+
+p.contact{
+    font-family: 'Darker Grotesque';
+    font-size: 1.3em;
+    padding: 0.5em 1em 0.5em 1em
+   
+}
+
+figure{
+    width: 50%; 
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+h3{
+    
+    color:  rgb(65 76 59);
+    padding: 1rem 0em 1rem;
+    font-family: 'Playfair Display SC';
+    text-transform: uppercase; 
+    font-size: 1.8em; 
+    font-weight: bold;  
+    font-style: normal;
+    
+   
+}
+
+nav ul{
+    padding: 0.5em;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline;
+    list-style-type: none;
+    margin-right: 1em;
+    font-family: 'Playfair Display SC';
+    font-weight: bold;
+    font-size: 2em;
+    letter-spacing: 0.05em;
+    text-align: center;
+  
+}
+
+nav ul li a{
+    color:#AB8742;
+    text-decoration: none;
+
+}
+
+nav ul li a:hover{
+    color:#8CA87C;
+
+}
+
+ul{
+    margin: 1px 1px 2px;
+    
+}
+li { 
+    list-style: none;
+    
+}
+div.services{
+    margin: 4rem; 
+}
+
+div.portfolio{
+    margin: 4rem;
+    padding: 1em 1em 1em 0em;
+}
+ol{
+    margin: 1em 0em 3em;
+    padding: 0rem 1rem 1rem 1rem;
+
+}
+div.contact{
+    margin: 4rem;
+}
+footer{
+    background-color:rgb(65 76 59);
+	color: rgb(250,250,250);
+    padding: 1rem 1rem 1rem 1rem;
+    font-family: 'Playfair Display SC';
+    font-size: 1rem; 
+    font-weight: 400;  
+    font-style: normal;
+}
+/*Please don’t change this CSS stylesheet for the content hierarchy assginment */
