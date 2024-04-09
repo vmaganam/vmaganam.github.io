@@ -1,0 +1,91 @@
+/*CSS DOCUMENT*/
+
+div.container{
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 60em;
+	margin: auto
+	
+}
+
+header{
+	flex-basis: 100%;
+	flex-grow: 1;
+	flex-shrink: 0;
+}
+
+article{
+	background: #ffffff;
+	flex: 2 0 30em;
+
+}
+
+aside{
+	background: #ffffff;
+	flex: 1 0 15em; 
+}
+
+section{
+	background-color: #f1f1f1;
+	flex: 1 0 15em;
+	padding: .5em;
+	margin: 0.5em;
+	margin-top: 0.2em;
+
+}
+a{
+	font-family: sans-serif;
+	font-style: bold;
+	text-decoration: none;
+	color: black;
+}
+figure{
+	margin: 0.2em;
+}
+
+ol{
+	margin: 0;
+	padding: 0;
+}
+
+p{
+	
+	margin-top: 1em;
+}
+
+h3{
+	margin: 0em;
+	padding-top: 1em;
+	line-height: 1em;
+}
+
+body {
+	font-family: sans-serif;
+	color: #222;
+	background-color: #ffffff;
+	box-sizing: border-box;
+	flex-basis: 15em;
+	flex-grow: 1;
+	flex-shrink: 0;
+
+	}
+
+img {
+	width: 100%;
+	flex-basis: 15em;
+	flex-grow: 3;
+	flex-shrink: 0;
+
+
+	}
+
+	footer{
+	flex-basis: 100%;
+	flex-grow: 1;
+	flex-shrink: 0;
+	margin-top: 3em;
+		border-top: 2px solid #bbb;
+		
+		
+	  
+	}
